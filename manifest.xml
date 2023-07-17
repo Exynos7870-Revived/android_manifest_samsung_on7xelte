@@ -2,31 +2,33 @@
 <manifest>
     <!--
     * target: on7xelte
-    * rom: LineageOS-17.1
+    * rom: LineageOS-19.1
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/Exynos7870-Revived" name="samsungexynos7870" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="samsungexynos7870" revision="LineageOS-18.1" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="LineageOS-18.1" />
+    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="samsungexynos7870" revision="LineageOS-19.1" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="LineageOS-19.1" />
 
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp-12-vendor-staging" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_on7xelte" path="vendor/samsung/on7xelte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
+    <project name="android_vendor_samsung_on7xelte" path="vendor/samsung/on7xelte" remote="samsungexynos7870" revision="LineageOS-19.1" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="LineageOS-19.1" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="LineageOS-18.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="LineageOS-19.1" />
 		
     <!-- board support package (bsp) -->
-    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="samsungexynos7870" revision="lineage-19.1" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="samsungexynos7870" revision="lineage-19.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="samsungexynos7870" revision="lineage-19.1" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="samsungexynos7870" revision="lineage-19.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="samsungexynos7870" revision="lineage-19.1" />
+
 
 </manifest>

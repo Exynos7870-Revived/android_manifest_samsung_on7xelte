@@ -1,4 +1,4 @@
-# LineageOS-18.1
+# LineageOS-19.1
 
 ### How to build ###
 
@@ -7,10 +7,10 @@
 $ mkdir LineageOS && cd LineageOS
 
 # Init repo
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
+$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1
 
 # Clone my local repo
-$ git clone https://github.com/Exynos7870-Revived/android_manifest_samsung_on7xelte.git -b LineageOS-18.1 .repo/local_manifests
+$ git clone https://github.com/Exynos7870-Revived/android_manifest_samsung_on7xelte.git -b LineageOS-19.1 .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
